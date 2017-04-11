@@ -99,3 +99,14 @@ body {
   background: url("../img/laptop.jpg") no-repeat center center;
   background-size: cover;
 }
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.works {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

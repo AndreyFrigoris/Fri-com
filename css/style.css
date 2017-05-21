@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -100,14 +100,46 @@ body {
   background-size: cover;
 }
 
+/*Services*/
+
 .services {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
+/*Works*/
+
 .works {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.works__item {
+  width: 350px;
+  height: 250px;
+  overflow-y: hidden;
+  margin-bottom: 33px;
+  margin-right: 10px;
+}
+
+.works__item img {
+  width: 100%;
+}
+/*Team*/
+
+.team__items {
+  display: flex;
+
+}
+
+.team__item {
+  display: flex;
+}
+
+.team__item img {
+  display: block;
+  border: 10px solid #1abc9c;
+  border-radius: 50%;
 }
